@@ -18,3 +18,14 @@ The baseline thresholds for these metrics are established as follows:
 - BLEU score: 0.7
 - Response time: 200ms
 - Hallucination rate: 5%
+
+## Sample Test Set
+The sample test set includes the following components:
+- Input queries
+- Relevant source documents/passages
+- Expected/reference answers
+- Query-document relevance judgments
+- Query types (factoid, open-ended, etc.)
+
+## Improvements to Ground Truth Dataset
+The ground truth dataset has been improved by adding more diverse and comprehensive input queries, relevant source documents/passages, and expected/reference answers. Additionally, the query-document relevance judgments and query types have been refined to ensure better evaluation of the LLMs.
